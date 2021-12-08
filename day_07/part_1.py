@@ -7,6 +7,7 @@ for line in input:
 
 crabs = list(map(int, crabs_s)    )
 
+# look for the highest distance a crab has from 0
 m = max(crabs)
 
 array = []
